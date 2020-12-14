@@ -16,6 +16,18 @@
 // if(age>18 && age<65){
 //   var price = (0.21*km).toFixed(2);
 // }
+
+// o meglio
+//
+// if (age<18){
+//   var price = (0.8*0.21*km).toFixed(2) ;
+// }
+// else if(age>65){
+//   var price =(0.6*0.21*km).toFixed(2);
+// }
+// else{
+//   var price = (0.21*km).toFixed(2);
+// }
 //
 // outputContainer.innerText = 'Il prezzo del biglietto è di ' + price + ' €. Trenitalia ti augura buon viaggio!';
 // }
