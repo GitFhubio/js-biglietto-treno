@@ -54,6 +54,8 @@ if (age<18){
 if(age>65){
   discount=0.6;
 }
+// oppure if  0.8 else if 0.6 else 1
+
 var price=(base*discount).toFixed(2);
 
 outputContainer.innerText = 'Il prezzo del biglietto è di ' + price + ' €. Trenitalia ti augura buon viaggio!';
