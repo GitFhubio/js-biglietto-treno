@@ -103,6 +103,45 @@ alert('Devi inserire valori corretti');
 //   else {return false;}
 // }
 
+// versione 3b)
+//
+// var outputContainer = document.getElementById('output');
+//
+// var km = prompt('Ciao utente. Quanti km vuoi fare oggi?');
+// var age = prompt('E quanti anni hai?');
+// if (!isNaN(km) && !isNaN(age)) {
+// var age=parseInt(age);
+// var km=parseInt(km);
+//
+// var base=0.21*km;
+// var discount=1;
+//
+// var minorenne;
+// var anziano;
+// function fasciaetà(x){
+//
+// if (x<18) {
+//   minorenne=true;
+// }
+// else if (x>65) {anziano=true;}
+// }
+// fasciaetà(age);
+//
+// if (minorenne){
+//    discount=0.8;
+// }
+// else if(anziano) {
+//   discount=0.6;
+// }
+// else {discount=1;}
+// var price=(base*discount).toFixed(2);
+//
+// outputContainer.innerText = 'Il prezzo del biglietto è di ' + price + ' €. Trenitalia ti augura buon viaggio!';
+// }
+// else{
+// alert('Devi inserire valori corretti');
+// }
+
 // versione 4)
 //
 // var outputContainer = document.getElementById('output');
